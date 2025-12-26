@@ -1,0 +1,16 @@
+[
+  {
+    "title": "SINA CAFE Promotional Poster",
+    "description": "A modern promotional café poster designed with warm tones and clean typography to strengthen brand identity.",
+    "tags": ["Design", "Branding", "Photoshop"],
+    "category": "design",
+    "image": "images/cafe-poster.jpg"
+  },
+  {
+    "title": "Personal Portfolio",
+    "description": "A responsive personal portfolio featuring a glassmorphism design and dynamic project filtering.",
+    "tags": ["HTML", "CSS", "JS"],
+    "category": "code",
+    "image": "images/portfolio-preview.jpg"
+  }
+]
