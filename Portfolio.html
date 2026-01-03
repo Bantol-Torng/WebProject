@@ -8,141 +8,129 @@
 </head>
 <body>
 
-  <div class="background-blobs">
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-    <div class="blob blob-3"></div>
-  </div>
-
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <section id="home">
-    <div class="glass-card">
-        <img src="images/profestional im.JPG" alt="Bantol" class="profile-img-pf">
-        <h1>Hello,My name is Bantol.</h1>
-        <p>No matter what work you do, it's not defined that it is the end of your life.</p>
-    </div>
-  </section>
-
-  <section id="about">
-    <h2>About me</h2>
-     <img src="images/bantol.JPG" alt="Bantol" class="profile-img-ban">
-     <div class="glass-card">
-    <p>I currently work in Sales at a private restaurant and I own a small Cafe brand to support my studies.</p>
-    <p>Previously, I worked as a fuel attendant at a PTT Station during my first year.</p>
-    <p>I have also gained experience as a restaurant cashier and a freelance designer.</p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-item">
-      <h3>SINA CAFE Promotional Poster Design</h3>
-      <p>
-        A modern cafe poster designed to promote new coffee menu items. 
-        The design highlights product photography, warm coffee tones, 
-        and clean typography to strengthen brand identity and attract customers.
-      </p>
-    </div> </section> <section id="skills">
-    <h2>Skills</h2>
-  <ul class="skills-list">
-    <li>
-        CSS
-        <div class="tooltip">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Icon" class="tooltip-icon">
-            CSS
-            <span class="tooltip-proficiency">Skill proficiency: 30%</span>
-        </div>
-    </li>
-    <li>
-        Docker
-        <div class="tooltip">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker Icon" class="tooltip-icon">
-            Docker
-            <span class="tooltip-proficiency">Skill proficiency: 30%</span>
-        </div>
-    </li>
-    <li>
-        HTML
-        <div class="tooltip">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Icon" class="tooltip-icon">
-            HTML
-            <span class="tooltip-proficiency">Skill proficiency: 45%</span>
-        </div>
-    </li>
-    <li>
-        Graphic Design
-        <div class="tooltip">
-            <img src="https://www.svgrepo.com/download/16734/graphic-design.svg" alt="Graphic Design Icon" class="tooltip-icon">
-            Graphic Design
-            <span class="tooltip-proficiency">Skill proficiency: 70%</span>
-        </div>
-    </li>
-    <li>
-        JavaScript
-        <div class="tooltip">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Icon" class="tooltip-icon">
-            JavaScript
-            <span class="tooltip-proficiency">Skill proficiency: 35%</span>
-        </div>
-    </li>
-    <li>
-        Sales
-        <div class="tooltip">
-            <img src="https://www.svgrepo.com/download/128600/sales.svg" alt="Sales Icon" class="tooltip-icon">
-            Sales
-            <span class="tooltip-proficiency">Skill proficiency: 80%</span>
-        </div>
-    </li>
-    <li>
-        Communication
-        <div class="tooltip">
-            <img src="https://www.svgrepo.com/download/1109/communication.svg" alt="Communication Icon" class="tooltip-icon">
-            Communication
-            <span class="tooltip-proficiency">Skill proficiency: 85%</span>
-        </div>
-    </li>
-</ul>
-  </ul>
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-
-    <div class="exp-item">
-      <h3>Cashier at Restaurant</h3>
-      <p>May 2024 – September 2024</p>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
     </div>
 
-    <div class="exp-item">
-      <h3>Sales & Customer Communication</h3>
-      <p>September 2024 – Present</p>
-    </div>
-  </section>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:bantoltorng3@gmail.com">bantoltorng3@gmail.com</a></p>
-    <form>
-      <input type="text" placeholder="Your Name" required><br>
-      <input type="email" placeholder="Your Email" required><br>
-      <textarea placeholder="Your Message" rows="4"></textarea><br>
-      <button type="submit" class="glass-btn">submit</button>
-    </form>
-  </section>
+    <section id="home">
+        <div class="glass-card">
+            <img src="images/profestional im.JPG" alt="Bantol" class="profile-img-pf">
+            <h1>Hello, My name is Bantol</h1>
+            <p>No matter what work you do, it's not defined that it is the end of your life.</p>
+        </div>
+    </section>
 
-  <footer>
-    <p>© 2025 Bantol Torng. All Rights Reserved.</p>
-  </footer>
+    <section id="about">
+     <h2>About me</h2>
+     <div class="glass-card slider-container">
+        <div class="slider-wrapper">
+            <button class="nav-btn prev" onclick="moveAboutSlide(-1)">&#10094;</button>
+            <div class="projects-slider" id="aboutSlider">
+                <img src="images/youngMe.jpg" class="project-item" alt="Bantol 1">
+                <img src="images/bantol.JPG" class="project-item" alt="Bantol 2">
+                <img src="images/tripMe.JPG" class="project-item" alt="Bantol 3">
+            </div>
+            <button class="nav-btn next" onclick="moveAboutSlide(1)">&#10095;</button>
+        </div>
 
-  <script src="script.js"></script>
+        <div class="about-text" style="margin-top: 20px;">
+            <p>I currently work in Sales at a private restaurant and I own a small Cafe brand to support my studies.</p>
+            <p>Previously, I worked as a fuel attendant at a PTT Station during my first year.</p>
+            <p>I have also gained experience as a restaurant cashier and a freelance designer.</p>
+        </div>
+     </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="glass-card slider-container">
+            <h3>SINA CAFE Promotional Poster Design</h3>
+            <p>A modern cafe poster designed to promote new coffee menu items.</p>
+            
+            <div class="slider-wrapper">
+                <button class="nav-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+                <div class="projects-slider" id="projectSlider">
+                    <img src="images/card.png" class="project-item">
+                    <img src="images/Coconut.jpg" class="project-item">
+                    <img src="images/Ice drink.png" class="project-item">
+                </div>
+                <button class="nav-btn next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>CSS
+                <div class="tooltip">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="tooltip-icon">
+                    <span class="tooltip-proficiency">Skill proficiency: 30%</span>
+                </div>
+            </li>
+            <li>Docker
+                <div class="tooltip">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" class="tooltip-icon">
+                    <span class="tooltip-proficiency">Skill proficiency: 30%</span>
+                </div>
+            </li>
+            <li>HTML
+                <div class="tooltip">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="tooltip-icon">
+                    <span class="tooltip-proficiency">Skill proficiency: 45%</span>
+                </div>
+            </li>
+            <li>Graphic Design
+                <div class="tooltip">
+                    <img src="https://www.svgrepo.com/download/16734/graphic-design.svg" class="tooltip-icon">
+                    <span class="tooltip-proficiency">Skill proficiency: 70%</span>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="exp-item glass-card">
+            <h3>Cashier at Restaurant</h3>
+            <p>May 2024 – September 2024</p>
+        </div>
+        <div class="exp-item glass-card">
+            <h3>Sales & Customer Communication</h3>
+            <p>September 2024 – Present</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="glass-card">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:bantoltorng3@gmail.com">bantoltorng3@gmail.com</a></p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Bantol Torng. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
